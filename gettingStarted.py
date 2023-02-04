@@ -26,7 +26,7 @@ def welcome_assignment_answers(question):
         answer = "4"
     elif question == "What layer of the TCP/IP model the protocol ICMP belongs to? - The answer should be a " \
                      "numeric number":
-        answer = "2"
+        answer = "3"
     else:
         answer = "This is not the answer you're looking for."
     return answer
