@@ -9,7 +9,7 @@ def welcome_assignment_answers(question):
                    "by a TA?":
         answer = "mTCP"
     elif question == "Are encoding and encryption the same? - Yes/No":
-        answer = "Yes"
+        answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
@@ -23,10 +23,10 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DNS belongs to? - The answer should be a " \
                      "numeric number":
-        answer = 4
+        answer = "4"
     elif question == "What layer of the TCP/IP model the protocol ICMP belongs to? - The answer should be a " \
                      "numeric number":
-        answer = 2
+        answer = "2"
     else:
         answer = "This is not the answer you're looking for."
     return answer
