@@ -26,7 +26,7 @@ def welcome_assignment_answers(question):
         answer = 4
     else:
         answer = "This is not the answer you're looking for."
-    return answer
+    return (answer)
 # Complete all the questions.
 
 
