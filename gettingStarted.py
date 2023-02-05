@@ -21,13 +21,11 @@ def welcome_assignment_answers(question):
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "mTCP"
     else:
-        answer = "This is not the answer you're looking for."
+        answer = "This is not the answer you are looking for"
     return answer
 
 
 # Complete all the questions.
-
-
 if __name__ == "__main__":
     # use this space to debug and verify that the program works
     questions = ["Are encoding and encryption the same? - Yes/No",
