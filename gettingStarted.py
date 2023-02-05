@@ -1,7 +1,9 @@
 # welcome_assignment_answers
 # Input - All nine questions given in the assignment.
 # Output - The right answer for the specific question.
-import hashlib
+import question as question
+
+
 def welcome_assignment_answers(question):
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
@@ -18,33 +20,39 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DNS belongs to? - The answer should be a " \
                      "numeric number":
-          answer = int
-          var = 4
+        answer = int
+        var = 4
     elif question == "What layer of the TCP/IP model the protocol ICMP belongs to? - The answer should be a " \
                      "numeric number":
         answer = int
         var = 3
-            
+
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel " \
                      "posted by a TA?":
-        answer = "mTCP"
+        answer = "SHA256sum mTCP"
     else:
         answer = "This is not the answer you're looking for."
     return answer
+
+
 # Complete all the questions.
 
 
 if __name__ == "__main__":
     # use this space to debug and verify that the program works
     questions = ["Are encoding and encryption the same? - Yes/No", "Is it possible to decrypt a message without a key?"
-                 " - Yes/No", "Is it possible to decode a message without a key? - Yes/No", "Is a hashed message"
-                 " supposed to be un-hashed? - Yes/No", "What is the SHA256 hashing value to the following message: 'NYU"
+                                                                   " - Yes/No",
+                 "Is it possible to decode a message without a key? - Yes/No", "Is a hashed message"
+                                                                               " supposed to be un-hashed? - Yes/No",
+                 "What is the SHA256 hashing value to the following message: 'NYU"
                  " Computer Networking' - Use MD5 hash generator and use the answer in your code", "Is MD5 a secured"
-                 " hashing algorithm? - Yes/No", "What layer from the TCP/IP model the protocol DNS belongs to? - The"
+                                                                                                   " hashing algorithm? - Yes/No",
+                 "What layer from the TCP/IP model the protocol DNS belongs to? - The"
                  " answer should be a numeric number", "What layer of the TCP/IP model the protocol ICMP belongs to? -"
-                 " The answer should be a numeric number", "In Slack, what is the secret passphrase posted in the"
+                                                       " The answer should be a numeric number",
+                 "In Slack, what is the secret passphrase posted in the"
                  " #lab-python-getting-started channel posted by a TA?"]
-    for debug_question in questions:
+    for debug_question in question:
         print(debug_question)
         print(welcome_assignment_answers(debug_question))
         print('_________________________________________')
