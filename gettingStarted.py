@@ -20,6 +20,8 @@ def welcome_assignment_answers(question):
         answer = 3
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "mTCP"
+    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
+        answer = "No"
     else:
         answer = "This is not the answer you are looking for"
     return answer
