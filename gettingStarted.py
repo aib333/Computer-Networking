@@ -21,7 +21,7 @@ def welcome_assignment_answers(question):
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "mTCP"
     else:
-        not question += "Error"
+        question == "Error"
         # you should understand why this else case should be included
         # what happens if there is a typo in one of the questions?
         # maybe put something here to flag an issue
