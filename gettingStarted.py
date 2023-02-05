@@ -1,9 +1,6 @@
 # welcome_assignment_answers
 # Input - All nine questions given in the assignment.
 # Output - The right answer for the specific question.
-import question as question
-
-
 def welcome_assignment_answers(question):
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
@@ -52,7 +49,7 @@ if __name__ == "__main__":
                                                        " The answer should be a numeric number",
                  "In Slack, what is the secret passphrase posted in the"
                  " #lab-python-getting-started channel posted by a TA?"]
-    for debug_question in question:
+    for debug_question in questions:
         print(debug_question)
         print(welcome_assignment_answers(debug_question))
         print('_________________________________________')
