@@ -34,7 +34,7 @@ if __name__ == "__main__":
                  "Is it possible to decrypt a message without a key? - Yes/No",
                  "Is it possible to decode a message without a key? - Yes/No",
                  "Is a hashed message supposed to be un-hashed? - Yes/No",
-                 "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code",
+                 "What is the SHA256 hashing value to the following message:'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code",
                  "Is MD5 a secured hashing algorithm? - Yes/No",
                  "What layer from the TCP/IP model the protocol DNS belongs to? - The answer should be a numeric number",
                  "What layer of the TCP/IP model the protocol ICMP belongs to? - The answer should be a numeric number",
