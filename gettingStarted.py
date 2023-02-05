@@ -21,7 +21,8 @@ def welcome_assignment_answers(question):
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "mTCP"
     else:
-        answer: str = "This is not the answer you are looking for is incorrect"
+        print('Warning')
+        answer = "This is not the answer you are looking for is"
     return answer
 
 
