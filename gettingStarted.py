@@ -12,21 +12,18 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 " \
                      "hash generator and use the answer in your code":
-        answer = "9a5631e210bcf6cf2261d93e1025901adc863378239ee1a34f2cd1772cf141f0"
+        answer = "705924a8ef1015e45a4cba4ef94e90ddc1163a8560de92ece16c37d354cb9ba8"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DNS belongs to? - The answer should be a " \
                      "numeric number":
-        answer = int
-        var = 4
+        answer = 4
     elif question == "What layer of the TCP/IP model the protocol ICMP belongs to? - The answer should be a " \
                      "numeric number":
-        answer = int
-        var = 3
-
+        answer = 3
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel " \
                      "posted by a TA?":
-        answer = "SHA256sum mTCP"
+        answer = "mTCP"
     else:
         answer = "This is not the answer you're looking for."
     return answer
