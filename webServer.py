@@ -53,6 +53,7 @@ while True:
         connectionSocket.close()
     # Fill in end
 serverSocket.close()
+sys.exit()
 
 if __name__ == "__main__":
     webServer(13331)
