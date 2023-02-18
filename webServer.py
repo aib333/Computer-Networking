@@ -1,5 +1,6 @@
 # Import socket module
 from socket import *
+import sys
 
 # Create a TCP server socket
 # (AF_INET is used for IPv4 protocols)
@@ -52,8 +53,7 @@ while True:
         # Fill in start
         connectionSocket.close()
     # Fill in end
-serverSocket.close()
-sys.exit()
-
+# serverSocket.close()
+# sys.exit()
 if __name__ == "__main__":
     webServer(13331)
