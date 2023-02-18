@@ -1,13 +1,11 @@
 # Import socket module
 from socket import *
 import sys
-
 # Create a TCP server socket
 # (AF_INET is used for IPv4 protocols)
 # (SOCK_STREAM is used for TCP)
-serverPort = 13331
-serverSocket = socket(AF_INET, SOCK_STREAM)
-
+def webServer(port=13331):
+socketSocket: socket = socket(AF_INET, SOCK_STREAM)
 # Prepare a sever socket
 # Fill in start
 serverSocket.bind(('', serverPort))
@@ -56,4 +54,5 @@ while True:
 # serverSocket.close()
 # sys.exit()
 if __name__ == "__main__":
-    webServer(13331)
+  webServer(13331)
+
