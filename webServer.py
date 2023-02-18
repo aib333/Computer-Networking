@@ -9,8 +9,8 @@ serverSocket = socket(AF_INET, SOCK_STREAM)
 # Prepare a sever socket to bind to an IP and listen for one connection
 
 # Fill in start
-IP = '0.0.0.0'  # all interfaces
-PORT = 6789
+IP = '127.0.0.1'  # all interfaces
+PORT = 13331
 serverSocket.bind((IP, PORT))
 serverSocket.listen(1)
 # Fill in end
