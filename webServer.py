@@ -56,6 +56,6 @@ while True:
         # Fill in start
         connectionSocket.close()
     # Fill in end
-serverSocket.close()
+# serverSocket.close()
 if __name__ == "__main__":
     serverPort(13331)
